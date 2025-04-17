@@ -1,10 +1,10 @@
 ﻿<Publish>
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
-	<ModId Value="75107" />
+	<ModId Value="" />
 	<!--Name of the mod to display to players-->
-	<DisplayName Value="Abandoned Building Remover" />
+	<DisplayName Value="Abandoned Building Remover - Redux" />
 	<!--Short description of the mod-->
-	<ShortDescription Value="Automatically demolishes abandoned buildings" />
+	<ShortDescription Value="Automatically demolishes abandoned buildings. Forked from Wayzware." />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
@@ -25,14 +25,15 @@ This mod does not add data to your savegames, and should be safe to remove at an
 	<!--Version of the mod-->
 	<ModVersion Value="1.0.0" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.1.*" />
+	<GameVersion Value="1.2.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog>
-* Performance Improvement (mod now uses Burst compiling)
+* Forked from Wayzware's Abandoned Building Remover.
+* Updated to support 1.2.* game versions.
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
-  <ExternalLink Type="github" Url="https://github.com/Wayzware" />
-  <ExternalLink Type="paypal" Url="https://www.paypal.com/paypalme/wayzware" />
+  <ExternalLink Type="github" Url="https://github.com/andrewNiziolek" />
+  <ExternalLink Type="paypal" Url="https://www.paypal.com/paypalme/ajaxburger" />
 </Publish>
